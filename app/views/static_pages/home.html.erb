@@ -1,0 +1,11 @@
+<h2> Welcome to Camera app</h2>
+
+
+<%= form_for(:static_pages,url: camera_path) do |f| %>
+
+      <%= f.label :camera %>
+      <%= f.text_field :camera %>
+
+
+      <%= f.submit "Go", class: "btn btn-primary" %>
+<% end %>
